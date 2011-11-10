@@ -1,0 +1,11 @@
+### SponsorPay Challenge
+
+Solution by Max Brauer
+Date of submission: 10.11.2011
+Non-standard requirements: Json, Sinatra, Minitest
+
+Please run 'ruby -rubygems sponsorpay.rb' for the application.
+For testing run 'ruby test.rb'
+
+Excuse the basic test coverage.
+
