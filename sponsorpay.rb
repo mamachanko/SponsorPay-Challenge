@@ -84,7 +84,7 @@ post '/' do
 	hashvalue = Digest::SHA1.hexdigest @body + $apikey
 	# check the integrity and keep it's result in @isok
 	@isok = false
-	if responsehash == hashvalue:
+	if responsehash == hashvalue
 		@isok = true
 	end
 	# render the results(see erb template at the end of the file)
